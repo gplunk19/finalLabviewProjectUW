@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- Find and Replace all instances of 'Driver Identifer' with the Driver Identifier of your instrument driver 
+
+     Remove this note once this is complete. --><!-- Replace all the instructions that appear within the <font color="red"> tags with information about your instrument driver.  Make sure to delete the <font color="red"> tags as you fill in each line. Remove this note once this is complete.-->
+  <title>Tektronix TDS 3000 Series Instrument Driver Readme</title>
+</head>
+<body>
+<font face="Times New Roman" size="3">
+<h2>Tektronix TDS 3000 Series Instrument Driver Readme</h2>
+<para>To rate this driver, go to the driver download page on the <a
+ href="http://www.ni.com/idnet">Instrument Driver Network</a>.</para>
+<h4>1. Overview</h4>
+<para>
+Instrument Driver Technology: LabVIEW Plug and Play (project-style)
+<br>
+Manufacturer: Tektronix
+<br>
+Supported Language(s): LabVIEW 8.0
+<br>
+Supported Model(s): Tektronix TDS 3012, 3012B, 3014, 3014B, 3024B, 3032, 3032B, 3034, 3034B, 3044B, 3052, 3052B, 3054, 3054B, 3064B, 3012C, 3014C, 3032C, 3034C, 3052C, 3054C
+<br>
+Model(s) Tested: TDS 3054, TDS 3054B, TDS 3064B, TDS 3054C
+<br>
+Interface(s): GPIB, Serial, Ethernet
+<br>
+Firmware Revision Tested: v3.26, v3.35 (TDS 3064B only), v3.59
+<br>
+<br>
+Certified: Yes
+<br>
+NI Supported: Yes
+<br>
+Source Code Available: Yes
+<br>
+<br>
+Driver Revision: 2.3
+<br>
+Original Release Date: 05/16/2003
+<br>
+Current Revision Date: 04/30/2008
+</para>
+<h4>2. Required Software</h4>
+<para>Some software components need to be installed before using this
+instrument driver. The minimum versions of these components are listed
+below, and can be downloaded from the Download Site.
+<br>
+<br>
+VISA 3.0 or later
+<br>
+LabVIEW 8.0 or later
+<br>
+<br>
+<br>
+For more details, refer to the <i>LabVIEW Help</i> under <i>Help
+&raquo; VI, Function, &amp; How-To Help</i>.</para>
+<h4>3. Known Issues</h4>
+<para>
+To report issues or provide feedback about this instrument driver,
+please send an email to <a href="mailto:instrument.drivers@ni.com">instrument.drivers@ni.com</a>.</para></font>
+<br>
+<font face="Times New Roman" size="3"><para></para>
+<h4>4. Revision History</h4>
+<para>The latest version of this and other LabVIEW and LabWindows/CVI
+instrument drivers can be downloaded at the <a
+ href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
+<br>
+REV 2.00, 7/13/05<br><br>
+
+Modified by: Rob Hammond, Austin,TX.<br>
+Original release for LabVIEW 8.0 created from v1.7 of LabVIEW 7.1 tktds3k driver.<br><br>
+
+REV 2.1, 10/23/2006 <br><br>
+
+Modified by Jim Piotrowski, Austin TX<br><br>
+
+-Added Transfer Current Waveform Example.vi
+-Updated Fetch Waveform.vi and Fetch Min-Max Waveform.vi so that DAT:WID? returns the data size instead of using the VISA User Data property.<br><br>
+-Updated Initiate.vi so that the VISA User Data property isn't used<br><br>
+-Removed ACQ:STATE 0 and ACQ:STOPA SEQ so that tranferring the current waveform doesn't halt continuous acquisition<br><br>
+-Bumped the version in Revision Query.vi<br><br>
+
+REV 2.2, 6/13/2007 <br><br>
+
+Modified by Vinny LaPenna, Austin TX<br><br>
+
+-Added Wait for Acquisition Complete.vi and Wait for Acquisition Complete Example.vi<br><br>
+
+REV 2.3 04/30/2008 <br><br>
+
+Modified by Berk Ozdogan, Austin TX<br><br>
+
+- C revision instruments are now supported.<br><br>
+- Configure TV Trigger Source VI: Added HDTV support<br><br>
+- Added Configure TV Trig HDTV Format VI for HDTV triggering configuration<br><br>
+- Updated control documentation in order to include important information regarding HDTV triggering<br><br>
+- Added Configure TV Trig Custom for custom TV triggering configuration<br><br>
+- VI Tree updated to reflect added VIs<br><br>
+</font></para></font>
+</body>
+</html></pre>
